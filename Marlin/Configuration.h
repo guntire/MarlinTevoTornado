@@ -749,6 +749,7 @@
 // @section machine
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
+// gfg
 #define INVERT_X_DIR true
 #define INVERT_Y_DIR true
 #define INVERT_Z_DIR false
@@ -759,6 +760,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
+// gfg
 #define INVERT_E0_DIR true
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
