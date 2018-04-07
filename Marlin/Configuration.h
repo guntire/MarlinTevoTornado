@@ -119,8 +119,8 @@
 // The following define selects which electronics board you have.
 // Please choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  // gfg #define MOTHERBOARD BOARD_RAMPS_14_EFB
-  #define MOTHERBOARD BOARD_MKS_13
+  // gfg #define MOTHERBOARD BOARD_MKS_13
+  #define MOTHERBOARD BOARD_RAMPS_14_EFB
 #endif
 
 // Optional custom name for your RepStrap or other custom machine
@@ -1475,7 +1475,7 @@
 // https://github.com/eboston/Adafruit-ST7565-Full-Graphic-Controller/
 //
 // gfg #define ELB_FULL_GRAPHIC_CONTROLLER
-#define ELB_FULL_GRAPHIC_CONTROLLER
+//#define ELB_FULL_GRAPHIC_CONTROLLER
 
 //
 // RepRapDiscount Smart Controller.
@@ -1498,7 +1498,7 @@
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
 
-//gfg #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // MakerLab Mini Panel with graphic
