@@ -76,7 +76,7 @@
 #define Y_MIN_PIN          14
 #define Y_MAX_PIN          15
 #define Z_MIN_PIN          18
-#define Z_MAX_PIN          19
+//#define Z_MAX_PIN          19  // This pins was desactivate for the Z MAX sensor to use for the runout sensor
 
 //
 // Z Probe (when not Z_MIN_PIN)
@@ -252,7 +252,8 @@
 #endif
 
 // define digital pin 4 for the filament runout sensor. Use the RAMPS 1.4 digital input 4 on the servos connector
-#define FIL_RUNOUT_PIN      4
+//#define FIL_RUNOUT_PIN      4
+#define FIL_RUNOUT_PIN      19   // Using the MAX Z sensor pins... BCK
 
 #ifndef PS_ON_PIN
   #define PS_ON_PIN        12
